@@ -1,3 +1,4 @@
+//mosaic
 (function () {
     var l = ".filtered",
         p = ".item",
