@@ -1,0 +1,45 @@
+ol.olfaq {
+  counter-reset: repas; 
+  padding-left:0;
+  font-family: verdana;
+  padding-left: 0 !important;
+}
+
+li.lifaq {
+	list-style-type: none;
+	counter-increment: repas; /* on incrémente le compteur à chaque nouveau li */
+	margin-bottom: 10px;
+}
+
+li.lifaq:before {
+	content: counter(repas); /* on affiche le compteur */
+	padding: 1px 20px 1px;
+	margin-right: 8px;
+	vertical-align: top;
+	background: #678;
+	-moz-border-radius: 60px;
+	border-radius: 60px;
+	font-weight: bold;
+	font-size: 1.2em;
+	color: white;		
+}
+
+.dspn { display: none; }
+
+.nlp { text-align: justify; }
+
+.article { cursor:auto; }
+
+.hentry{ cursor:auto; }
+
+
+
+.linkx { cursor:auto; }
+
+.z6 { font-size: 1.5em; }
+
+.pfaq { margin:1em auto; }
+
+.titfaq { margin-bottom:1.5em; font-weight: bold; font-size: 1.5em; }
+
+#faqc { background-color: white; padding: 2em 3em; max-width:750px; margin: 2.5em auto; }
